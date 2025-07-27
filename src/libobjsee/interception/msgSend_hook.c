@@ -16,7 +16,7 @@
 #include "tracer.h"
 #include "rebind.h"
 
-#define USE_JAILBREAK_HOOKER 0
+#define USE_JAILBREAK_HOOKER 1
 
 void *original_objc_msgSend = NULL;
 static pthread_key_t interception_stacktrace_thread_key;
